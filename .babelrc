@@ -1,0 +1,4 @@
+{
+    "presets": ["@babel/preset-env","@babel/preset-react"],//1)@babel/preset-env：将ES6转换为向后兼容的JavaScript 2)react项目使用@babel/preset-react
+    "plugins": ["@babel/plugin-transform-runtime"]//处理async,await,import()等语法关键字的帮助函数
+}

@@ -1,0 +1,16 @@
+$blue:blue;
+$red:red;
+body{
+    .hello{
+        color: $red;
+        font-size: 16px;
+        width: 200px;
+        margin-top: 50px;
+        border: 1px solid pink;
+        transform: rotate(15deg); /* 这个属性会产生浏览器内核前缀如 -webkit*/
+    }
+    img{
+        width: 100px;
+        height: 100px;
+    }
+}
